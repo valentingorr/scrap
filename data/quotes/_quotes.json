@@ -1,0 +1,32 @@
+{
+	"tables": [
+		{
+			"name": "authors",
+			"path": "C:\\Users\\gorri\\Documents\\dev\\scrap\\quotes\\data\\quotes\\authors.json",
+			"schema": {
+				"alias": "author",
+				"unique": true,
+				"items": {
+					"name": {
+						"unique": true,
+						"required": true,
+						"type": "string"
+					},
+					"link": {
+						"unique": true,
+						"required": true,
+						"type": "string"
+					},
+					"profession": {
+						"required": true,
+						"type": "string"
+					},
+					"country": {
+						"required": true,
+						"type": "string"
+					}
+				}
+			}
+		}
+	]
+}
